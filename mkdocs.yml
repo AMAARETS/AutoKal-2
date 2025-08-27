@@ -1,4 +1,19 @@
-site_name: auto-kal
+site_name: Click&Go - קליק אנד גו
 site_url: https://amaarets.github.io/AutoKal-2/
+
 theme:
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.path
+    - toc.follow
+    - navigation.top
+
+  logo: logo.png
+  favicon: favicon.ico
+  language: he
   name: material
+  palette:
+    primary: cyan
