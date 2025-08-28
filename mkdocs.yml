@@ -10,7 +10,8 @@ theme:
     - navigation.path
     - toc.follow
     - navigation.top
-
+    - navigation.tabs
+    - navigation.tabs.sticky
   logo: logo.png
   favicon: favicon.ico
   language: he
@@ -19,3 +20,6 @@ theme:
     primary: cyan
   font:
     text: Roboto
+markdown_extensions:
+  - attr_list
+  - md_in_html
