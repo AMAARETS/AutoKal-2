@@ -1,0 +1,566 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+4. Repository files, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+<additional_info>
+
+</additional_info>
+
+</file_summary>
+
+<directory_structure>
+.github/workflows/ci.yml
+docs/אודות/אודות.md
+docs/הורדות/סימניות.md
+docs/השירותים_שלנו/חוברות_עבודה_מקצועיות_באקסל.md
+docs/השירותים_שלנו/כתיבת_סקריפטים_לאוטומציה.md
+docs/השירותים_שלנו/תרגום_אפליקציות.md
+docs/השירותים_שלנו/VBA_לוורד.md
+docs/פוסטים/טקס_הורדת_הצ'קים.md
+docs/פוסטים/שחרור_מהתפריטים_המכווצים.md
+docs/צור_קשר/צור_קשר.md
+docs/index.md
+docs/javascripts/custom.js
+docs/stylesheets/custom.css
+mkdocs.yml
+overrides/main.html
+overrides/partials/footer.html
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="docs/אודות/אודות.md">
+# קצת עלינו...
+
+אנחנו מאמינים שעבודה חכמה מתחילה בפשטות. במקום לבזבז זמן על פעולות טכניות שחוזרות על עצמן – אנחנו מפתחים סקריפטים ותוספים קטנים שעושים את זה בלחיצה אחת.
+המטרה שלנו היא לחסוך לכם זמן, למנוע טעויות ולעזור לכם להתמקד במה שחשוב באמת. כל כלי שאנחנו מפתחים נולד מצורך אמיתי של משתמשים – והופך תהליך מורכב לפשוט, נוח ומהיר.
+אם גם לכם יש רעיון או צורך אוטומציה חדש – נשמח לשמוע ולעזור להפוך אותו לכלי שעובד בשבילכם.
+</file>
+
+<file path="docs/הורדות/סימניות.md">
+<div class="grid cards" markdown>
+
+-   :material-format-pilcrow-arrow-left:{ .lg .middle } __סידור אוטומטי של העיצוב באתר של גוגל AI STUDIO__
+
+    ---
+
+    כולל אפשרות נוחה לגלילה לתחילת השיחה ולסופה  
+    [קרא עוד:octicons-arrow-left-24:](#)
+
+-   :material-export:{ .lg .middle } __ייצוא שרשורים שלמים מפורום פרוג__
+
+    ---
+
+    כלי עזר לייצוא שרשורים בפורמט JSON להגשה קלה לAI וכדו'.
+
+    [קרא עוד:octicons-arrow-left-24:](#)
+
+-   :simple-google:{ .lg .middle } __חיפוש בגוגל באתר הנוכחי מכל אתר__
+
+    ---
+    כלי עזר לחיפוש מיידי בגוגל באתר הנוכחי שבו אתם גולשים כרגע
+
+    [קרא עוד:octicons-arrow-left-24:](#)
+
+</div>
+</file>
+
+<file path="docs/השירותים_שלנו/חוברות_עבודה_מקצועיות_באקסל.md">
+# חוברות עבודה מקצועיות באקסל  
+
+צריך חוברת אקסל חכמה שתעשה בשבילך את החישובים?
+אנחנו נבנה עבורך **קובצי אקסל מותאמים אישית** עם כל הנוסחאות, הפונקציות והאוטומציה שאתה צריך.
+
+## מה אנחנו מציעים?
+
+- בניית נוסחאות מורכבות בצורה מקצועית
+- שילוב נוסחאות חדשות ע"י VBA שעובדות בצורה חסכונית ומהירה
+- שילוב VBA (מאקרו) לאוטומציה מתקדמת במידת הצורך
+- מבנה חוברת מסודר ונוח לשימוש
+- התאמה מלאה לצרכים שלך – לא רק האפשרויות הפשוטות של אקסל או פתרונות כללים שאינם מספקים
+
+### חשוב לדעת
+
+אנחנו מתמקדים בצד **המקצועי והחישובי** של החוברת.
+העיצוב נשאר ברמת המינימום הנדרש, כדי לאפשר לך חוברת ברורה ויעילה שתעבוד כמו שצריך.  
+
+## למה לבחור בנו?
+
+✔ חוסך לך זמן וטעויות חישוב  
+✔ פתרון מותאם אישית – לפי הצרכים שלך בלבד  
+✔ ניסיון מעשי עם פרויקטים מורכבים באקסל  
+
+**במילים אחרות: אנחנו דואגים שהמספרים יעבדו בשבילך – בצורה חכמה ומדויקת.**
+</file>
+
+<file path="docs/השירותים_שלנו/כתיבת_סקריפטים_לאוטומציה.md">
+# הפיכת פעולות שחוזרות על עצמם במחשב ובדפדפן לביצוע מיידי בלחיצת כפתור
+
+נמאס לך לעשות שוב ושוב את אותן הפעולות באתרים או במחשב?
+במקום לבזבז זמן יקר, אנחנו כותבים עבורך **סקריפטים חכמים** שמבצעים את העבודה בלחיצת כפתור אחת.  
+
+## מה זה כולל?  
+- כתיבת קוד מותאם אישית לפי הצרכים שלך  
+- הפעלה פשוטה – **כפתור אחד, ואתה חוסך מאות קליקים!!**  
+- הפעלת הפעולות באתרים מתאימה לכל דפדפן מודרני (Chrome, Edge, Firefox וכו')  
+- שימושי במיוחד למנהלי חשבונות, משרדים, עסקים וכל מי שעובד מול מערכות מקוונות או מבצע פעולות חוזרות על עצמם במחשב המקומי
+
+## אפשרות לאוטומציה מושלמת
+
+### ישנם פעולות שתרצו שיתבצעו מעצמם, אפילו כשא אחד לא במשרד?
+
+**גם אפשרי!!**  
+נוכל לכתוב לכם סקריפט חכם (או אפילו תוכנה קטנה) שיופעל אוטומטית שזמן הרצוי ויבצע את הפעולות הרצויות
+
+## למה לבחור בנו?
+
+✔ חוסך זמן ושגרה מיותרת  
+✔ פתרונות פשוטים – בלי התקנות מורכבות  
+✔ ניסיון מעשי עם מאות פעולות אוטומטיות  
+
+**במילים אחרות: אנחנו הופכים את מה שחוזר על עצמו – לפעולה בלחיצת כפתור.**
+</file>
+
+<file path="docs/השירותים_שלנו/תרגום_אפליקציות.md">
+# תרגום אפליקציות קיימות  
+
+### נתקלת באפליקציה מעולה – אבל היא לא בשפה שלך?
+
+**אנחנו כאן כדי לפתור את זה!**  
+
+במקום להסתבך עם פניות למפתחי התוכנה (שבדרך כלל לא זמינים או לא מאפשרים שינויים), אנחנו מציעים שירות מקצועי של **תרגום אפליקציות קיימות** באמצעות **הנדסה לאחור**.  
+
+## מה זה אומר בפועל?  
+- חילוץ הטקסטים מתוך קבצי האפליקציה  
+- תרגום מקצועי ואיכותי לשפה שאתה בוחר  
+- החזרה של הקבצים המתורגמים לתוך האפליקציה  
+- קבלת גרסה מתורגמת, מוכנה לשימוש – בלי תלות במפתח המקורי  
+
+### היתרונות שלנו:  
+✔ מתאים לאפליקציות באנדרואיד או תוכנות מחשב  
+✔ תרגום מותאם אישית – עברית, אנגלית ועוד שפות  
+✔ ניסיון וידע טכני עמוק בהנדסה לאחור  
+
+**במילים אחרות: אנחנו לוקחים אפליקציה זרה, ומתאימים אותה אליך.**
+</file>
+
+<file path="docs/השירותים_שלנו/VBA_לוורד.md">
+# אוטומציה חכמה בוורד – עם VBA  
+
+נמאס לך לבצע שוב ושוב פעולות ידניות במסמכי וורד?  
+אנחנו נבנה עבורך **כלי VBA מותאם אישית** שיאפשר לך לבצע את כל הפעולות האלו בלחיצה אחת.  
+
+## מה זה כולל?
+
+- כתיבת מאקרו VBA לפי הצרכים שלך  
+- הפעלה פשוטה – פעולה אחת במקום עשרות צעדים ידניים  
+- מתאים לכל סוגי המסמכים: חוזים, טפסים, חוברות ועוד  
+- חוסך זמן וטעויות אנוש  
+
+## למה זה טוב?
+
+✔ מתאים במיוחד גם למי שמבצע עימוד או כתיבה באופן קבוע בוורד, וגם למי שנצרך באופן חד-פעמי לבצע סדרת פעולות מונטונית על מסמך  
+✔ הופך פעולות חוזרות למשהו מהיר וקל  
+✔ מותאם אישית – מה שאתה צריך בדיוק  
+✔ פתרון פשוט ונגיש בתוך וורד עצמו  
+
+**במילים אחרות: אנחנו הופכים את וורד לכלי חכם שעובד בשבילך – בלחיצת כפתור.**
+</file>
+
+<file path="docs/פוסטים/טקס_הורדת_הצ'קים.md">
+# טקס הורדת השקים
+
+### שורה תחתונה: די לנהל חלונות, הגיע הזמן לנהל חשבונות.
+
+**מנהלי חשבונות יקרים, בואו נדבר על "טקס הורדת הצ'קים" מהבנק. אתם בטח מכירים אותו בעל פה.**
+
+זה מתחיל בתחושת נחישות: "אוקיי, אני רק צריך להוריד את צילומי הצ'קים האלה". זה ממשיך במסע הקלקות מייגע:
+
+1.  אתר את שורת הצ'ק. לחץ על הקישור.
+2.  חכה שהפופ-אפ הקטן והמרגיז ייטען.
+3.  כוון את העכבר בזהירות לכפתור ה"הדפס" או ה"הורד".
+4.  סגור את החלון.
+5.  נשום עמוק, וחזור על הפעולה. שוב. ושוב. ושוב.
+
+כל צ'ק הוא מיני-פרויקט. כל פופ-אפ הוא הסחת דעת. ואחרי עשרה צ'קים, אתם כבר לא בטוחים אם הורדתם את צ'ק 452 או דילגתם עליו בטעות. הזמן שלכם נשרף, והריכוז שלכם מתפוגג בין החלונות הקופצים.
+
+**עכשיו דמיינו את זה: לחיצה אחת. זה הכל.**
+
+במקום לפתוח מסע צלב נגד פופ-אפים, אתם פשוט לוחצים על כפתור אחד. בלי חלונות, בלי המתנה, בלי דרמה.
+
+הסקריפט שלנו עובד מאחורי הקלעים. הוא פונה לבנק, מבקש בנימוס את כל צילומי הצ'קים שאתם צריכים, ומוריד אותם ישירות למחשב שלכם, אחד אחרי השני, בסדר מופתי. בזמן שהוא עובד, אתם יכולים להמשיך לשתות את הקפה שלכם (בזמן שהוא עדיין חם!) ולעבוד על משימות חשובות באמת.
+
+#### מהפכת ה"שגר ושכח" בהורדת צ'קים:
+
+*   **יעילות קיצונית:** הפכו משימה של דקות ארוכות לפעולה של שנייה אחת שרצה ברקע. במקום להיות העובדים של המחשב, המחשב סוף סוף עובד בשבילכם.
+*   **ריכוז מוחלט:** כשהמוח שלכם לא קופץ בין חלונות, הוא יכול להישאר ממוקד במשימה החשובה באמת: ניהול הכספים. בלי הסחות דעת, איכות העבודה שלכם עולה.
+*   **אפס טעויות אנוש:** הסקריפט לא מתעייף, לא מתבלבל ולא מפספס שום צ'ק. אתם יכולים להיות בטוחים ב-100% שכל הקבצים הנדרשים ירדו למחשב שלכם, בלי יוצא מן הכלל.
+*   **תהליך עבודה נקי וחלק:** הדפדפן שלכם נשאר נקי, שולחן העבודה שלכם לא מתמלא בחלונות, והראש שלכם פנוי. זו לא רק אוטומציה, זו חווית עבודה רגועה יותר.
+
+הגיע הזמן לשים סוף למכת הפופ-אפים ולהתקדם לניהול חשבונות חכם ויעיל.
+
+**שדרגו את תהליך העבודה שלכם והפכו את הורדת הצ'קים לפעולה הכי פשוטה ביום שלכם.**
+</file>
+
+<file path="docs/פוסטים/שחרור_מהתפריטים_המכווצים.md">
+## המידע שלכם כלוא מאחורי סימני '^'? הגיע הזמן לשחרר אותו.
+
+### ישנו מס נסתר שכולנו משלמים כל יום: מס הקליקים.
+
+זה לא מס כספי, אלא מס על הזמן, הריכוז והסבלנות שלנו. הוא מתחבא בתוך הממשקים של הפלטפורמות החשובות לנו ביותר – אתרי בנקים, רשתות חברתיות, מערכות ספקים, מאגרי מידע – אותם מקומות שבהם המידע החיוני לנו מוצג בשורות מכווצות, וכל פרט דורש קליק על סימן "^" קטן כדי להיחשף.
+
+העיצוב הזה נועד לשרת משתמש ממוצע, כזה שרק "מציץ" בנתונים. אבל אתם לא משתמשים ממוצעים. אתם צריכים את התמונה המלאה, ועכשיו. אתם נאלצים לנהל קרב סיזיפי של פתיחה, גלילה, העתקה וסגירה, רק כדי לאסוף את המידע שאתם צריכים כדי לעשות את עבודתכם.
+
+**הבעיה הזו אינה ייחודית למקצוע אחד – היא שזורה בשגרת העבודה של רבים:**
+
+*   **מנהל חשבונות** מנסה להדפיס דפי בנק של הלקוח, ופותח ידנית מאות שורות של פעולות בבנק כדי שהם יוצגו בהדפסה
+*   **מנהל הכספים** מנסה להפיק דוח שנתי מחשבון ההשקעות, ופותח ידנית מאות שורות של עסקאות כדי לוודא שאף עמלה לא חמקה מעיניו.
+*   **רכז הלוגיסטיקה** עוקב אחר 20 משלוחים קריטיים במקביל, ומקליק ללא הרף על מספרי מעקב שונים באתר של חברת השילוח כדי לראות אם החבילה עברה כבר במכס.
+*   **המגייסת** סורקת עשרות פרופילים בלינקדאין, ומרחיבה כל אחד מהם בנפרד כדי להעתיק את פרטי המפתח לקראת הצגתם למנהל המגייס.
+*   **סוחר באמזון** מנסה להבין את פירוט העמלות המורכב על כל מכירה, ומוצא את עצמו צולל לעומק שלוש שכבות של תפריטים עבור כל הזמנה.
+*   **עורכת הדין** מכינה תיק וסוקרת פסקי דין במאגר משפטי, שם כל תוצאה דורשת פתיחה נפרדת רק כדי לקרוא את תקציר הפתיחה.
+*   **ואפילו ברמה האישית,** כל מי שניסה להשוות ברצינות בין חמש אפשרויות טיסה או מלון, יודע כמה מתסכל זה לפתוח כל אופציה בנפרד רק כדי לראות את "האותיות הקטנות".
+
+בכל המקרים הללו, אתם שבויים של ממשק שלא נבנה עבורכם, ואין לכם שום דרך לשנות אותו. עד עכשיו.
+
+### הפסיקו להילחם בממשק – הכפיפו אותו לצרכים שלכם
+
+מה אם במקום להילחם במערכת, הייתם יכולים להתקין לה "שכבה" חכמה משלכם?
+
+כאן נכנס לתמונה פתרון מותאם אישית: **תוסף כרום שנבנה במיוחד עבורכם**. זהו לא מוצר מדף גנרי, אלא כלי מדויק שמותאם לאתרים ולמשימות הספציפיות שמעכבות *אתכם*.
+
+**איך זה עובד?**
+
+במקום שתצטרכו אתם לבצע את כל הפעולות המונוטוניות, התוסף הקטן והעוצמתי הזה עושה זאת עבורכם. הוא יושב בשקט בדפדפן, וכשאתם מגיעים לדף הרלוונטי, לחיצת כפתור אחת מפעילה אותו. ברגע אחד, הוא יכול:
+
+*   **לפתוח ולהרחיב את כל השורות** בדף, ולחשוף את כל המידע הנסתר.
+*   **לסנן ולהדגיש** רק את הנתונים שרלוונטיים עבורכם.
+*   **לאסוף ולהעתיק** את המידע מכל השורות הפתוחות לפורמט מסודר.
+
+התחושה היא כמו לעבור מנסיעה בפקק תנועה לנסיעה בכביש מהיר ופתוח. הפעולה שהייתה גוזלת מכם דקות ארוכות של עבודה שחורה, מתבצעת כעת בשנייה אחת.
+
+### מעבר ליעילות, מדובר בשינוי תפיסתי:
+
+*   **שליטה מלאה בסביבה הדיגיטלית שלכם:** אתם כבר לא תלויים בחסדי הממשק. אתם קובעים איך המידע יוצג לכם, גם בפלטפורמות שאינן שלכם.
+*   **דיוק כירורגי, אפס טעויות אנוש:** אוטומציה של תהליך פתיחת השורות מבטיחה ששום פרט לא יתפספס בטעות בגלל עייפות או חוסר ריכוז. כל המידע פרוש לפניכם, תמיד.
+*   **החזרת המשאב היקר ביותר – הזמן שלכם:** במקום לבזבז את האנרגיה המנטלית שלכם על משימות טכניות, אתם מתפנים לעשות את מה שבאמת חשוב – ניתוח, קבלת החלטות ויצירתיות.
+*   **זרימת עבודה חלקה ושפויה:** הפחתת החיכוך והתסכול בתהליכים יומיומיים משפיעה באופן ישיר על איכות יום העבודה ועל השקט הנפשי.
+
+כל אחד מאיתנו נתקל בממשקים מתסכלים כאלה. ההבדל הוא בין אלה שמקבלים אותם כמציאות נתונה, לבין אלה שמבינים שאפשר לבנות פתרון אישי שיעקוף את המגבלות.
+
+**ספרו לי על הממשק שמעכב אתכם, ובואו נבנה יחד את הכלי שתמיד רציתם שיהיה לכם.**
+</file>
+
+<file path="docs/צור_קשר/צור_קשר.md">
+# אנחנו כאן בשבילכם!
+
+<p style="text-align:center">
+אם יש לכם שאלה, בקשה או רעיון לסקריפט חדש – נשמח לשמוע.<br>
+📩 אימייל: <a href="mailto:Click.Go.Script@gmail.com">Click.Go.Script@gmail.com</a><br>
+📞 טלפון: <a href="tel:+972548423141">0548423141</a>
+</p>
+</file>
+
+<file path=".github/workflows/ci.yml">
+name: ci 
+on:
+  push:
+    branches:
+      - master 
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: ~/.cache 
+          restore-keys: |
+            mkdocs-material-
+      - run: pip install mkdocs-material 
+      - run: mkdocs gh-deploy --force
+</file>
+
+<file path="docs/javascripts/custom.js">
+function initializeContactForm() {
+      const toggleButton = document.getElementById('contact-toggle-button');
+      const formWrapper = document.getElementById('contact-form-popup-wrapper');
+      const contactForm = document.getElementById('contact-form');
+      const closeButton = document.getElementById('contact-close-btn');
+
+      // If the elements don't exist on the page, do nothing.
+      if (!toggleButton || !formWrapper || !contactForm || !closeButton) {
+        return; 
+      }
+      
+      // A flag to prevent attaching listeners multiple times
+      if (toggleButton.dataset.initialized) {
+        return;
+      }
+      toggleButton.dataset.initialized = "true";
+
+      const openForm = () => formWrapper.classList.add('is-visible');
+      const closeForm = () => formWrapper.classList.remove('is-visible');
+
+      toggleButton.addEventListener('click', (event) => {
+        event.stopPropagation();
+        formWrapper.classList.toggle('is-visible');
+      });
+
+      closeButton.addEventListener('click', closeForm);
+
+      document.addEventListener('click', (event) => {
+        if (formWrapper.classList.contains('is-visible') && !formWrapper.contains(event.target) && event.target !== toggleButton) {
+          closeForm();
+        }
+      });
+      
+      const submitButton = document.getElementById('contact-submit-btn');
+      const formStatus = document.getElementById('contact-form-status');
+      contactForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const formData = new FormData(contactForm);
+        const data = Object.fromEntries(formData.entries());
+        submitButton.disabled = true;
+        submitButton.textContent = 'שולח...';
+        formStatus.textContent = '';
+        formStatus.className = '';
+        fetch("https://formsubmit.co/ajax/click.go.script@gmail.com", { 
+          method: "POST",
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(responseData => {
+          formStatus.textContent = 'ההודעה נשלחה בהצלחה! בע"ה נחזור אליכם בהקדם';
+          formStatus.classList.add('success');
+          contactForm.reset();
+          setTimeout(() => {
+            closeForm();
+            setTimeout(() => { formStatus.textContent = ''; formStatus.className = ''; }, 350);
+          }, 2500);
+        })
+        .catch(error => {
+          formStatus.textContent = 'אירעה שגיאה בשליחה.';
+          formStatus.classList.add('error');
+        })
+        .finally(() => {
+          submitButton.disabled = false;
+          submitButton.textContent = 'שליחה';
+        });
+      });
+    }
+
+    // 2. Use the official MkDocs-Material hook to run our function
+    // on every page load and navigation.
+document$.subscribe(function() {
+      initializeContactForm();
+});
+</file>
+
+<file path="docs/stylesheets/custom.css">
+#contact-form-popup-wrapper {
+      position: fixed;
+      bottom: 80px; 
+      right: 20px;
+      width: 300px;
+      max-width: 90vw;
+      z-index: 1000;
+      transform: translateY(20px);
+      opacity: 0;
+      visibility: hidden;
+      transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    }
+    #contact-form-popup-wrapper.is-visible {
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+    }
+    .contact-form-body {
+      position: relative; 
+      background-color: var(--md-default-bg-color); 
+      border: 1px solid var(--md-default-fg-color--lightest);
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    }
+    .contact-close-btn {
+      position: absolute; top: 10px; left: 15px; background: none; border: none;
+      font-size: 1.5rem; line-height: 1; color: var(--md-default-fg-color--light);
+      cursor: pointer; padding: 0; transition: color 0.2s;
+    }
+    .contact-close-btn:hover { color: var(--md-default-fg-color); }
+    .contact-form-title { margin-top: 0; margin-bottom: 15px; font-size: 1.1em; font-weight: bold; color: var(--md-default-fg-color); }
+    .contact-form-group { margin-bottom: 15px; }
+    .contact-form-group label { display: block; margin-bottom: 5px; font-size: 0.8em; color: var(--md-default-fg-color--light); }
+    .contact-form-group input, .contact-form-group textarea { width: 100%; padding: 8px; border: 1px solid var(--md-default-fg-color--lightest); border-radius: 4px; background-color: var(--md-default-bg-color); color: var(--md-default-fg-color); box-sizing: border-box; }
+    .contact-form-group textarea { resize: vertical; min-height: 80px; }
+    #contact-submit-btn { display: inline-block; width: 100%; padding: 10px 16px; border: 1px solid var(--md-primary-fg-color); border-radius: 4px; background-color: var(--md-primary-fg-color); color: var(--md-primary-bg-color); font-weight: bold; text-align: center; cursor: pointer; transition: background-color 0.2s; }
+    #contact-submit-btn:hover { background-color: var(--md-primary-fg-color--dark); }
+    #contact-submit-btn:disabled { background-color: var(--md-default-fg-color--light); border-color: var(--md-default-fg-color--light); cursor: not-allowed; }
+    #contact-form-status { margin-top: 10px; font-size: 0.9em; text-align: center; min-height: 1em; }
+    #contact-form-status.success { color: var(--md-typeset-a-color); }
+    #contact-form-status.error { color: #e53935; }
+</file>
+
+<file path="overrides/partials/footer.html">
+<footer class="md-footer">
+  <!-- Footer meta -->
+  <div class="md-footer__inner md-grid">
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <!-- Copyright -->
+        <div class="md-copyright">
+          {% if config.copyright %}
+            <div class="md-copyright__highlight">
+              {{ config.copyright }}
+            </div>
+          {% endif %}
+        </div>
+        <!-- The trigger button is the ONLY thing we add here -->
+        <div class="custom-contact-footer">
+          <button id="contact-toggle-button" type="button" 
+                  style="cursor: pointer; font-size: 0.8rem; padding: 5px 10px; border: 1px solid var(--md-default-fg-color--light); border-radius: 4px; background-color: transparent; color: var(--md-default-fg-color);">
+            צרו קשר
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+</file>
+
+<file path="overrides/main.html">
+{% extends "base.html" %}
+
+{% block site_meta %}
+<meta name="google-site-verification" content="yr9JS1SwGVIMjRbGJi5UF57rCoIpwptxfmIKOS8dXFg" />
+  {{ super() }}
+{% endblock %}
+{% block content %}
+  {{ super() }}
+  <div id="contact-form-popup-wrapper">
+    <div class="contact-form-body">
+      <button type="button" id="contact-close-btn" class="contact-close-btn" aria-label="Close">&times;</button>
+      <h3 class="contact-form-title">צור קשר</h3>
+      <form id="contact-form" novalidate>
+        <input type="hidden" name="_captcha" value="true">
+        <div class="contact-form-group">
+          <label for="contact-email">מאת:</label>
+          <input type="email" id="contact-email" name="email" placeholder="כתובת מייל  או מספר טלפון" required>
+        </div>
+        <div class="contact-form-group">
+            <label for="contact-subject">נושא</label>
+            <input type="text" id="contact-subject" name="_subject" required>
+        </div>
+        <div class="contact-form-group">
+          <label for="contact-message">ההודעה שלך</label>
+          <textarea id="contact-message" name="message" required></textarea>
+        </div>
+        <button id="contact-submit-btn" type="submit">שלח</button>
+        <div id="contact-form-status"></div>
+      </form>
+    </div>
+  </div>
+{% endblock %}
+</file>
+
+<file path="docs/index.md">
+---
+hide:
+  - navigation
+  - toc
+  - path
+  - tabs
+  - tabs.sticky
+title: בית
+---
+# אתר זה בבניה
+</file>
+
+<file path="mkdocs.yml">
+site_name: Click&Go - קליק אנד גו
+site_url: https://amaarets.github.io/AutoKal-2/
+
+theme:
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.path
+    - toc.follow
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+  logo: logo.png
+  favicon: favicon.ico
+  language: he
+  name: material
+  palette:
+    primary: cyan
+  font:
+    text: Roboto
+extra_javascript:
+  - javascripts/custom.js
+extra_css:
+  - stylesheets/custom.css
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+</file>
+
+</files>

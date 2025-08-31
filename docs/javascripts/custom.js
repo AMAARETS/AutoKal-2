@@ -41,14 +41,14 @@
         submitButton.textContent = 'שולח...';
         formStatus.textContent = '';
         formStatus.className = '';
-        fetch("https://formsubmit.co/ajax/click.go.script@gmail.com", { // <-- !!! ודא שהחלפת את המייל שלך כאן !!!
+        fetch("https://formsubmit.co/ajax/click.go.script@gmail.com", { 
           method: "POST",
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
           body: JSON.stringify(data)
         })
         .then(response => response.json())
         .then(responseData => {
-          formStatus.textContent = 'ההודעה נשלחה בהצלחה!';
+          formStatus.textContent = 'ההודעה נשלחה בהצלחה! בע"ה נחזור אליכם בהקדם';
           formStatus.classList.add('success');
           contactForm.reset();
           setTimeout(() => {
