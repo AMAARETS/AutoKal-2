@@ -1,0 +1,42 @@
+    #contact-form-popup-wrapper {
+      position: fixed;
+      bottom: 80px; 
+      right: 20px;
+      width: 300px;
+      max-width: 90vw;
+      z-index: 1000;
+      transform: translateY(20px);
+      opacity: 0;
+      visibility: hidden;
+      transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    }
+    #contact-form-popup-wrapper.is-visible {
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+    }
+    .contact-form-body {
+      position: relative; 
+      background-color: var(--md-default-bg-color); 
+      border: 1px solid var(--md-default-fg-color--lightest);
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    }
+    .contact-close-btn {
+      position: absolute; top: 10px; left: 15px; background: none; border: none;
+      font-size: 1.5rem; line-height: 1; color: var(--md-default-fg-color--light);
+      cursor: pointer; padding: 0; transition: color 0.2s;
+    }
+    .contact-close-btn:hover { color: var(--md-default-fg-color); }
+    .contact-form-title { margin-top: 0; margin-bottom: 15px; font-size: 1.1em; font-weight: bold; color: var(--md-default-fg-color); }
+    .contact-form-group { margin-bottom: 15px; }
+    .contact-form-group label { display: block; margin-bottom: 5px; font-size: 0.8em; color: var(--md-default-fg-color--light); }
+    .contact-form-group input, .contact-form-group textarea { width: 100%; padding: 8px; border: 1px solid var(--md-default-fg-color--lightest); border-radius: 4px; background-color: var(--md-default-bg-color); color: var(--md-default-fg-color); box-sizing: border-box; }
+    .contact-form-group textarea { resize: vertical; min-height: 80px; }
+    #contact-submit-btn { display: inline-block; width: 100%; padding: 10px 16px; border: 1px solid var(--md-primary-fg-color); border-radius: 4px; background-color: var(--md-primary-fg-color); color: var(--md-primary-bg-color); font-weight: bold; text-align: center; cursor: pointer; transition: background-color 0.2s; }
+    #contact-submit-btn:hover { background-color: var(--md-primary-fg-color--dark); }
+    #contact-submit-btn:disabled { background-color: var(--md-default-fg-color--light); border-color: var(--md-default-fg-color--light); cursor: not-allowed; }
+    #contact-form-status { margin-top: 10px; font-size: 0.9em; text-align: center; min-height: 1em; }
+    #contact-form-status.success { color: var(--md-typeset-a-color); }
+    #contact-form-status.error { color: #e53935; }

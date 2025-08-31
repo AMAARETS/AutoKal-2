@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block site_meta %}
+<meta name="google-site-verification" content="yr9JS1SwGVIMjRbGJi5UF57rCoIpwptxfmIKOS8dXFg" />
+  {{ super() }}
+{% endblock %}
+{% block content %}
+  {{ super() }}
+  <div id="contact-form-popup-wrapper">
+    <div class="contact-form-body">
+      <button type="button" id="contact-close-btn" class="contact-close-btn" aria-label="Close">&times;</button>
+      <h3 class="contact-form-title">צור קשר</h3>
+      <form id="contact-form" novalidate>
+        <input type="hidden" name="_captcha" value="true">
+
+        <div class="contact-form-group">
+          <label for="contact-email">אנא הזן את כתובת המייל שלך כדי שנוכל להשיב</label>
+          <input type="email" id="contact-email" name="email" required>
+        </div>
+        <div class="contact-form-group">
+            <label for="contact-subject">נושא</label>
+            <input type="text" id="contact-subject" name="_subject" required>
+        </div>
+        <div class="contact-form-group">
+          <label for="contact-message">ההודעה שלך</label>
+          <textarea id="contact-message" name="message" required></textarea>
+        </div>
+        <button id="contact-submit-btn" type="submit">שלח</button>
+        <div id="contact-form-status"></div>
+      </form>
+    </div>
+  </div>
+{% endblock %}

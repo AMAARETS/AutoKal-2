@@ -1,0 +1,25 @@
+<footer class="md-footer">
+  <!-- Footer meta -->
+  <div class="md-footer__inner md-grid">
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <!-- Copyright -->
+        <div class="md-copyright">
+          {% if config.copyright %}
+            <div class="md-copyright__highlight">
+              {{ config.copyright }}
+            </div>
+          {% endif %}
+        </div>
+        <!-- The trigger button is the ONLY thing we add here -->
+        <div class="custom-contact-footer">
+          <button id="contact-toggle-button" type="button" 
+                  style="cursor: pointer; font-size: 0.8rem; padding: 5px 10px; border: 1px solid var(--md-default-fg-color--light); border-radius: 4px; background-color: transparent; color: var(--md-default-fg-color);">
+            צרו קשר
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
