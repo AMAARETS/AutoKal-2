@@ -1,0 +1,295 @@
+  .service-row {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem; /* הרווח בין התמונה לטקסט */
+    margin-bottom: 2.5rem; /* הרווח בין כל שירות - הוקטן */
+    padding: 1rem 0;
+  }
+  .service-text {
+    flex: 1 1 70%; /* טקסט תופס 60% */
+  }
+  .service-image {
+    flex: 1 1 30%; /* תמונה תופסת 40% - הוקטנה */
+  }
+  .service-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  .service-text h3 {
+    margin-top: 0;
+    font-size: 1.8em;
+  }
+  .service-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+
+  /* הופך את הסדר עבור האלמנט האמצעי */
+  .service-row--reverse {
+    flex-direction: row-reverse;
+  }
+
+  /* התנהגות רספונסיבית לנייד */
+  @media screen and (max-width: 959px) {
+    .service-row, .service-row--reverse {
+      flex-direction: column;
+      text-align: center;
+      gap: 1.5rem;
+    }
+  }
+  /* Styling for the "Why Choose Us" Section */
+.why-us-section {
+  text-align: center; /* Center aligns all the content */
+  padding: 0.5rem 0.5rem; /* Adds vertical breathing room */
+  max-width: 800px;   /* Prevents lines from being too wide on large screens */
+  margin: 1rem auto 1.5rem auto; /* Centers the entire block on the page and adds space below it */
+  border-top: 1px solid var(--md-default-fg-color--lightest); /* A subtle separator line above */
+  border-bottom: 1px solid var(--md-default-fg-color--lightest); /* A subtle separator line below */
+}
+
+/* Styling for the main heading of the section */
+.why-us-section h2 {
+  font-size: 2.2em; /* Makes the heading more prominent */
+  font-weight: 700;
+  margin-bottom: 1.5rem; /* Space between heading and quote */
+}
+
+/* Styling for the quote/tagline */
+.why-us-quote {
+  font-size: 1.6em; /* Larger font size to make it stand out */
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--md-default-fg-color--light); /* A slightly lighter color for the base quote */
+  margin: 0;
+}
+
+/* This is the class for the highlighted part of the quote */
+.why-us-quote .highlight {
+  color: var(--md-primary-fg-color); /* Uses your theme's primary color */
+  font-weight: 600; /* Makes the highlighted part bolder */
+  font-style: normal; /* Removes italics for contrast, making it pop */
+}
+/* Styling for the Benefits Section with Background Image */
+/* Styling for the Benefits Section with Background Image */
+.benefits-container {
+  position: relative;
+  padding: 4rem 2rem; /* Increased padding for better spacing */
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+/* The background image layer */
+.benefits-background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+.benefits-background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.4; /* הגברנו את נראות התמונה עצמה */
+}
+
+/* The dark overlay layer */
+.benefits-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 22, 25, 0.2); /* הפכנו את הכיסוי לפחות אטום */
+  z-index: -1;
+}
+
+/* The grid containing the text columns */
+.benefits-grid {
+  position: relative;
+  z-index: 1;
+}
+
+/* Styling the text inside the columns to be white and readable */
+.benefits-grid h3, .benefits-grid p {
+  color: #FFFFFF !important; /* הוספנו !important כדי לכפות את הצבע הלבן */
+}
+
+.benefits-grid p {
+  color: rgba(255, 255, 255, 0.9) !important; /* וגם כאן */
+}
+
+/* Make the icons in the headings white too */
+.benefits-grid h3 .md-icon svg {
+  color: #FFFFFF !important; /* מכוונים ישירות לאייקון ומוסיפים !important */
+}
+    #contact-form-popup-wrapper {
+      position: fixed;
+      bottom: 80px; 
+      right: 20px;
+      width: 300px;
+      max-width: 90vw;
+      z-index: 1000;
+      transform: translateY(20px);
+      opacity: 0;
+      visibility: hidden;
+      transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    }
+    #contact-form-popup-wrapper.is-visible {
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+    }
+    .contact-form-body {
+      position: relative; 
+      background-color: var(--md-default-bg-color); 
+      border: 1px solid var(--md-default-fg-color--lightest);
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    }
+    .contact-close-btn {
+      position: absolute; top: 10px; left: 15px; background: none; border: none;
+      font-size: 1.5rem; line-height: 1; color: var(--md-default-fg-color--light);
+      cursor: pointer; padding: 0; transition: color 0.2s;
+    }
+    .contact-close-btn:hover { color: var(--md-default-fg-color); }
+    .contact-form-title { margin-top: 0; margin-bottom: 15px; font-size: 1.1em; font-weight: bold; color: var(--md-default-fg-color); }
+    .contact-form-group { margin-bottom: 15px; }
+    .contact-form-group label { display: block; margin-bottom: 5px; font-size: 0.8em; color: var(--md-default-fg-color--light); }
+    .contact-form-group input, .contact-form-group textarea { width: 100%; padding: 8px; border: 1px solid var(--md-default-fg-color--lightest); border-radius: 4px; background-color: var(--md-default-bg-color); color: var(--md-default-fg-color); box-sizing: border-box; }
+    .contact-form-group textarea { resize: vertical; min-height: 80px; }
+    #contact-submit-btn { display: inline-block; width: 100%; padding: 10px 16px; border: 1px solid var(--md-primary-fg-color); border-radius: 4px; background-color: var(--md-primary-fg-color); color: var(--md-primary-bg-color); font-weight: bold; text-align: center; cursor: pointer; transition: background-color 0.2s; }
+    #contact-submit-btn:hover { background-color: var(--md-primary-fg-color--dark); }
+    #contact-submit-btn:disabled { background-color: var(--md-default-fg-color--light); border-color: var(--md-default-fg-color--light); cursor: not-allowed; }
+    #contact-form-status { margin-top: 10px; font-size: 0.9em; text-align: center; min-height: 1em; }
+    #contact-form-status.success { color: var(--md-typeset-a-color); }
+    #contact-form-status.error { color: #e53935; }
+.md-footer {
+    background-color: #60c3cff5;
+    color: var(--md-footer-fg-color);
+}
+
+.md-grid {
+  max-width: initial;
+}
+/* --- Custom Styling for the "Under Construction" Announcement Banner (FINAL VERSION) --- */
+
+/* 1. Main banner wrapper with compact size and color scheme */
+.md-banner {
+  background-color: #FEF3C7; 
+  color: #78350F; 
+  padding: 0 !important; /* Remove all padding from the main wrapper */
+  border-bottom: 1px solid #FDE68A;
+}
+
+/* 2. THIS IS THE KEY FIX: Force items into a single row */
+.md-banner__inner {
+  display: flex; /* Arrange children (button and our content) in a row */
+  align-items: center; /* Vertically align them to the center */
+  justify-content: center; /* Horizontally center the main content */
+  padding: 0.35rem 1rem !important; /* Apply padding here for inner content */
+  position: relative; /* Make it an anchor for the close button */
+}
+
+/* 3. Style the DEFAULT close button */
+.md-banner .md-banner__button {
+  position: absolute; /* Position the button relative to the inner wrapper */
+  left: 0.75rem; /* Pin it to the left side (or 'right' for LTR) */
+  top: 50%; /* Center it vertically */
+  transform: translateY(-50%);
+}
+
+.md-banner .md-banner__button svg {
+  fill: currentColor;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.md-banner .md-banner__button:hover svg {
+  opacity: 1;
+}
+
+/* 4. Style our custom content container */
+.md-banner .construction-notice {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+/* 5. Style the text and icon inside */
+.md-banner .construction-notice p {
+  margin: 0;
+  font-size: 0.8rem; 
+}
+
+.md-banner .construction-notice .twemoji svg {
+  width: 1.1em;
+  height: 1.1em;
+  fill: currentColor;
+}
+/* Styling for the Floating Action Button (FAB) */
+.fab-contact {
+  position: fixed; /* Makes the button "float" */
+  bottom: 25px; /* Distance from the bottom */
+  right: 25px;   /* Distance from the left (better for RTL) */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Makes it round */
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  cursor: pointer;
+  z-index: 999; /* Ensures it's above most content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.fab-contact .md-icon svg {
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
+}
+
+.fab-contact:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+/* Custom Styling for the "Call to Action" Box at the end of service pages */
+.md-typeset .admonition.cta-box {
+  background-color: rgba(var(--md-primary-fg-color-rgb), 0.05); /* A very light tint of your primary color */
+  border: 1px solid rgba(var(--md-primary-fg-color-rgb), 0.1);
+  border-left: 4px solid var(--md-primary-fg-color); /* A strong left border for emphasis */
+  text-align: center; /* Center aligns all content */
+  padding: 1.5rem;
+  box-shadow: none;
+}
+
+/* Hide the default title of the admonition */
+.md-typeset .cta-box > .md-admonition__title {
+  display: none;
+}
+
+/* Style the main call-to-action paragraph */
+.md-typeset .cta-box p:first-of-type {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+/* Style the second, witty paragraph */
+.md-typeset .cta-box p:last-of-type {
+  font-size: 0.9em;
+  opacity: 0.8;
+  margin-bottom: 0;
+}
