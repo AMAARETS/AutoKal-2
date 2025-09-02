@@ -179,3 +179,117 @@
 .md-grid {
   max-width: initial;
 }
+/* --- Custom Styling for the "Under Construction" Announcement Banner (FINAL VERSION) --- */
+
+/* 1. Main banner wrapper with compact size and color scheme */
+.md-banner {
+  background-color: #FEF3C7; 
+  color: #78350F; 
+  padding: 0 !important; /* Remove all padding from the main wrapper */
+  border-bottom: 1px solid #FDE68A;
+}
+
+/* 2. THIS IS THE KEY FIX: Force items into a single row */
+.md-banner__inner {
+  display: flex; /* Arrange children (button and our content) in a row */
+  align-items: center; /* Vertically align them to the center */
+  justify-content: center; /* Horizontally center the main content */
+  padding: 0.35rem 1rem !important; /* Apply padding here for inner content */
+  position: relative; /* Make it an anchor for the close button */
+}
+
+/* 3. Style the DEFAULT close button */
+.md-banner .md-banner__button {
+  position: absolute; /* Position the button relative to the inner wrapper */
+  left: 0.75rem; /* Pin it to the left side (or 'right' for LTR) */
+  top: 50%; /* Center it vertically */
+  transform: translateY(-50%);
+}
+
+.md-banner .md-banner__button svg {
+  fill: currentColor;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.md-banner .md-banner__button:hover svg {
+  opacity: 1;
+}
+
+/* 4. Style our custom content container */
+.md-banner .construction-notice {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+/* 5. Style the text and icon inside */
+.md-banner .construction-notice p {
+  margin: 0;
+  font-size: 0.8rem; 
+}
+
+.md-banner .construction-notice .twemoji svg {
+  width: 1.1em;
+  height: 1.1em;
+  fill: currentColor;
+}
+/* Styling for the Floating Action Button (FAB) */
+.fab-contact {
+  position: fixed; /* Makes the button "float" */
+  bottom: 25px; /* Distance from the bottom */
+  right: 25px;   /* Distance from the left (better for RTL) */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Makes it round */
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  cursor: pointer;
+  z-index: 999; /* Ensures it's above most content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.fab-contact .md-icon svg {
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
+}
+
+.fab-contact:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+/* Custom Styling for the "Call to Action" Box at the end of service pages */
+.md-typeset .admonition.cta-box {
+  background-color: rgba(var(--md-primary-fg-color-rgb), 0.05); /* A very light tint of your primary color */
+  border: 1px solid rgba(var(--md-primary-fg-color-rgb), 0.1);
+  border-left: 4px solid var(--md-primary-fg-color); /* A strong left border for emphasis */
+  text-align: center; /* Center aligns all content */
+  padding: 1.5rem;
+  box-shadow: none;
+}
+
+/* Hide the default title of the admonition */
+.md-typeset .cta-box > .md-admonition__title {
+  display: none;
+}
+
+/* Style the main call-to-action paragraph */
+.md-typeset .cta-box p:first-of-type {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+/* Style the second, witty paragraph */
+.md-typeset .cta-box p:last-of-type {
+  font-size: 0.9em;
+  opacity: 0.8;
+  margin-bottom: 0;
+}
