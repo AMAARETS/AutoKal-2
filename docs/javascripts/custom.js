@@ -71,4 +71,55 @@
     // on every page load and navigation.
 document$.subscribe(function() {
       initializeContactForm();
+        initializeDedicatedContactForm();
 });
+
+// This function is specifically for the dedicated contact page form.
+function initializeDedicatedContactForm() {
+  // Use the new, unique IDs from the contact page.
+  const contactForm = document.getElementById('contact-page-form');
+  const submitButton = document.getElementById('contact-page-submit-btn');
+  const formStatus = document.getElementById('contact-page-form-status');
+
+  // If the form doesn't exist on the page, do nothing.
+  if (!contactForm || !submitButton || !formStatus) {
+    return;
+  }
+  
+  // A flag to prevent attaching the listener multiple times
+  if (contactForm.dataset.initialized) {
+    return;
+  }
+  contactForm.dataset.initialized = "true";
+  
+  contactForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const formData = new FormData(contactForm);
+    const data = Object.fromEntries(formData.entries());
+    
+    submitButton.disabled = true;
+    submitButton.textContent = 'שולח...';
+    formStatus.textContent = '';
+    formStatus.className = '';
+    
+    fetch("https://formsubmit.co/ajax/click.go.script@gmail.com", { 
+      method: "POST",
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(responseData => {
+      formStatus.textContent = 'ההודעה נשלחה בהצלחה! בע"ה נחזור אליכם בהקדם';
+      formStatus.classList.add('success');
+      contactForm.reset();
+    })
+    .catch(error => {
+      formStatus.textContent = 'אירעה שגיאה בשליחה. נסו שוב או השתמשו בדרכי ההתקשרות האחרות.';
+      formStatus.classList.add('error');
+    })
+    .finally(() => {
+      submitButton.disabled = false;
+      submitButton.textContent = 'שליחה';
+    });
+  });
+}
